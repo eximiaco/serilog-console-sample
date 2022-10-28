@@ -32,3 +32,4 @@ jobs:
         context: .
         file: Serilog.Example.API/Dockerfile        
         tags: douglaspicolotto/serilog-sample:latest
+        push: true
