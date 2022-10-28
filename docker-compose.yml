@@ -1,0 +1,13 @@
+version: "3.6"
+
+services:
+  api:
+    build:
+      dockerfile: Serilog.Example.API/Dockerfile
+      context: .
+    image: douglaspicolotto/serilog-sample
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    ports:
+      - "8087:80"
+    
