@@ -1,0 +1,1 @@
+# serilog-console-sample
